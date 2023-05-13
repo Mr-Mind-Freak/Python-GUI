@@ -25,7 +25,7 @@ class HomePage():
                   relief = tk.RAISED,command = self.createmenu,cursor = 'hand2')
         button.pack(pady=10)
         button.focus_set() #Now button has focused.
-        button.bind("<Return>",self.createmenu) # we can simply press enter key instead of left mouse click
+        button.bind("<Return>",self.createmenu)# we can simply press enter key instead of left mouse click
         self.window.mainloop()
 
     def createmenu(self,*args):
